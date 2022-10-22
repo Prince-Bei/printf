@@ -6,6 +6,7 @@
 * Return: size the output text
 */
 int print_int(va_list i)
+
 {
 	int len, powten, j, digit, n, count = 0, num;
 
@@ -46,5 +47,6 @@ int print_int(va_list i)
 		return (1);
 	}
 	return (count);
+
 
 }
