@@ -8,6 +8,7 @@
  * Return: 1.
  */
 int print_char(va_list c)
+
 {
 	unsigned char my_char;
 
@@ -24,4 +25,5 @@ int print_porcentage(void)
 {
 	_putchar('%');
 	return (1);
+
 }
